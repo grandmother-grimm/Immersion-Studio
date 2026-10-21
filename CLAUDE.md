@@ -30,7 +30,7 @@ Their full steps live in `.claude/skills/<name>/SKILL.md`. If a slash command is
 
 - `/open <slug>`: load the bible, the state file and the latest transcript file; recap in four bracketed lines; wait for her turn. Never write a story turn on open.
 - `/save`: append every unsaved turn to the transcript verbatim, update the state file, commit, push. One bracketed line when done.
-- `/close [merge]`: save, write a full state update, commit, push, open the pull request to the default branch; with `merge`, merge it. Her typing `/close merge` is her explicit permission to merge.
+- `/close [merge]`: save, write a full state update, commit, push, open the pull request to `main`; with `merge`, merge it. Her typing `/close merge` is her explicit permission to merge.
 - `/new-story <slug>`: scaffold a story folder from the templates and fill the bible from what she gives you.
 
 ## Save discipline
@@ -38,7 +38,7 @@ Their full steps live in `.claude/skills/<name>/SKILL.md`. If a slash command is
 - At every scene break, run the `/save` steps on your own, silently, before writing the next scene. Also whenever she asks.
 - Transcript files are append-only during a sitting. Her turns are copied verbatim, including anything you would be tempted to tidy. Yours too.
 - If context has been compacted and you cannot reproduce an unsaved turn word for word, say so in brackets at once. Never rebuild her words from a summary and present them as hers.
-- Each cloud session runs on its own branch cut from the default branch. Nothing from one sitting reaches the next until its pull request is merged. `/close merge` handles that.
+- Each cloud session runs on its own branch cut from `main`. Nothing from one sitting reaches the next until its pull request is merged into `main`. `/close merge` handles that.
 
 ## Canon discipline
 
