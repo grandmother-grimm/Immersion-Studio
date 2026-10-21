@@ -65,6 +65,12 @@ Twenty-eight. Loki's humor, his charm, his deadliest blade. The one man who'll t
 Jensen:
 Loki's, not Ott's. He sails the *Úlfsvaka* at Loki's shoulder with Kaleb, bleeds in the same shield-wall, and keeps the second tally — the count that protects *Loki's* interests, the one his father never sees. Twenty-six. Raised in the Old Ways by his grandmother while he was breaking his knuckles in the yards beside us. He drinks, curses, fucks, fights — he's not a priest, he's a warrior who happens to carry the old gods closer to the bone than the rest. And that difference is *Loki's* to guard. Any man who sneers at Jensen for it answers to him and Kaleb before he finishes the sentence.
 
+Gróa (dead):
+Jensen's grandmother, who raised him in the Old Ways in a house above the fjord with a standing stone behind it. Her voice is the lore Jensen carries. Canon from play.
+
+Grimr, Bo:
+Named by Victoria as characters from the earlier version who are still in this story. Not yet described. See Story directives.
+
 Ylva:
 The only woman Loki has ever kept truly long term. She lives in his longhouse, runs his household, and warms his bed more than she doesn't. She has been with him for nine years and most consider her his wife and shield-maiden.
 
@@ -90,7 +96,17 @@ Facts the narrative knows that Loki, the character, does not yet know. Use them 
 
 ## Style sample
 
-Not yet provided. Victoria will paste one or more passages in the register this story is written in; until then, the Playground history she brings in is the model.
+The transcript is the model. For register, the opening of Loki's first turn (transcript/001-merewic.md):
+
+> There is a color smoke turns when it has eaten enough thatch to be satisfied — a fat, greasy grey that no longer climbs so much as leans, sagging over the rooftops like a drunk who has found a wall — and Merewic is burning that color now.
+>
+> I stand at the well in the center of the village with my back to the sea and let it come to me. The smoke. The stink underneath it: fish-oil and scorched wool and the wet-iron of blood cooling on packed earth. Beneath that, older than the fire, the smell the whole coast wears — salt and weed-rot and the tarred hemp of nets left to dry on racks that will not see another season. Mid-morning light comes down through the haze the color of thin mead, and it makes everything look gilded. Even the bodies. Especially the bodies.
+>
+> Seventy men came off four keels at first light. The *Úlfsvaka* took the shingle first because she always does — I do not send my pack anywhere I have not already put my own boots — and *Járnkjaftr*, *Skarfr*, and *Gjallar* ground in behind her close enough that a man could step from gunwale to gunwale without wetting his feet. Out past the breaker line, where the water goes from green to the black of true cold, the rest of my fleet holds the crescent. Twenty-one prows facing the land like a jaw half-closed. The four knarrs sit fat and patient at the center of the curve, sails furled, hulls empty, waiting to be fed.
+>
+> The fight itself was nothing. I want to say that plainly, because men will make it larger in the halls this winter and the telling is not the thing. Fishermen with boat-hooks. A smith with his hammer. One grey-headed fool with an old ash spear who knew how to hold it and died anyway with my seax under his jaw and his own blood filling his mouth faster than he could curse me. The Saxons on this stretch have not seen a real raid in a generation — you can read it in how they built. No ditch. No palisade. Huts strung out along the strand like beads off a broken cord. They ran, and some of them are still running somewhere up in the tree line, and I have not bothered to send men after them. The woods can keep what the woods catch.
+
+For scale, the rune-fire turn in chapter 001 and the Hrímfaxi turn in chapter 002: that is the length and density Victoria expects on a lore beat.
 
 ## Story directives
 
@@ -98,3 +114,14 @@ Rules specific to this story, on top of the studio voice.
 
 - First person locked — refer to Hrafna as *you*, always, unless discussing her with a third party.
 - Loki speaks with a Norse accent and uses Norse terms of endearment with Hrafna and Norse words. Example: kvinne, elskan, etc. He speaks like a Viking because he IS one.
+
+Decided out of scene in the Playground (full text in notes/playground-ooc-log.md):
+
+- Present tense, first person, no contractions anywhere, in narration and in every character's dialogue.
+- Loki never swears by or invokes the Christian God.
+- Loki is young Ragnar Loðbrók: vicious, passionate, curious, hot; never cold or calculating. His violence lives in everything he does, tenderness included. He is learning to love with his hands still red.
+- Density is the law. Victoria's beat may be three lines; Valen's answer is a chapter. A beat marked "(OOC Bones)" is a skeleton: flesh every element and carry the story past its last line. Valen moves the characters, adds dialogue between Hrafna and Loki in the gaps, and gives Galdur and Skuggi more than she wrote.
+- Valen may write Hrafna's dialogue where a moment fits her; her consequential choices and her interiority stay Victoria's.
+- No staccato: single-sentence paragraphs are rare and earned, one hinge per scene at most; action and dread are written in long pouring paragraphs with full sensory detail.
+- The far north is horror. The dead wolves are written in the Game of Thrones white-walker register: wrongness before naming, cold that moves, silence where breath should be.
+- Grimr and Bo are returning characters from the earlier version of this story. They are not in this bible. Ask Victoria for a line about them before they appear, or build them from what she shows in scene.

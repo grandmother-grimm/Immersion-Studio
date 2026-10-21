@@ -84,6 +84,16 @@ If you forgot to close: open the old session from the sidebar at claude.ai/code 
 
 The first `/open` of a new story asks how to begin: paste the Playground history so far, give a summary, or start fresh.
 
+## Bringing in a story that already has history
+
+If a story was running in the Playground before it came to the studio, the earlier turns belong in the transcript so Claude can read them and continue from the last line. Two ways to get them in; pick whichever is easier.
+
+**Paste in chunks.** In a session where the story's folder exists, paste the history in order, in as many messages as the message box needs, each one starting with a bracketed label like `[history, part 1 of 4]`. Keep whatever speaker labels the paste carries. Claude appends each part to the transcript word for word as it arrives, so nothing is lost if the session dies in the middle. When the last part is in, say `[history complete]` and Claude writes the state file from it. Then `/close merge`.
+
+**Upload a file on GitHub.** Open the repository on GitHub, go into `stories/<slug>/notes/`, choose "Add file" then "Upload files", drop in a text or markdown file of the history, and commit it to main. In the next session, type `[OOC: the Playground history is in notes/<filename>, bring it into the transcript.]` and Claude converts it into chapter files and writes the state file. Better for anything long.
+
+Either way, the next `/open` recaps from the last imported line and says whose move it is.
+
 ## Editing the bible or the state file
 
 Say it in brackets: `[OOC: add to the bible, Caius's brother is dead, killed in the spring.]` Claude edits the file and confirms. Or edit the file on GitHub yourself and have Claude re-read it with `/open`.
