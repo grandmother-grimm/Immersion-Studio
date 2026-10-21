@@ -1,9 +1,9 @@
 ---
 name: save
-description: Append every story turn since the last save to the transcript verbatim, refresh the state file, commit and push. Run it at every scene break and whenever Victoria asks.
+description: Append every story turn since the last save to the transcript verbatim, refresh the state file, commit and push. Run it only when Victoria asks, or as the first step of /close. Never on your own.
 ---
 
-Save the current story. If no story has been opened this session, say so in brackets and stop.
+Save the current story. Run this only because Victoria typed `/save` (or asked in words), or as part of `/close`. If no story has been opened this session, say so in brackets and stop.
 
 1. **Find the transcript file.** The newest file in `stories/<slug>/transcript/` (ignore dotfiles). If there is none, or Victoria has declared a new chapter out of scene, create the next one: `NNN-<kebab-title>.md`, three-digit number, title from the chapter's first scene. A new chapter file starts with `# <Story title> — Chapter NNN: <Title>` and a blank line.
 2. **Work out what is unsaved.** `state.md` records the last saved turn and its final words. Everything in scene after that point is unsaved. Out-of-scene exchanges (brackets, `OOC:`) are never saved to the transcript; decisions from them go into `state.md`.

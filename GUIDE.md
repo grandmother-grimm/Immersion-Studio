@@ -7,7 +7,7 @@ This is the plain-words guide to writing with Claude in this repository. Read it
 1. Start a session on this repository at claude.ai/code.
 2. Type `/open <story>` to step into a story.
 3. Write your turns. Claude writes the world.
-4. Type `/save` whenever you want the story on disk. Claude also saves at every scene break on its own.
+4. Type `/save` whenever you want the story on disk. Until then, the turns live only in the chat, so you can rewind or correct freely.
 5. Type `/close merge` when you are done for the night. Always.
 
 Everything below explains those five lines.
@@ -57,10 +57,13 @@ If you do not remember the slug, type `/open` alone and Claude lists the stories
 
 ## Saving
 
-Nothing in a session is safe until it is saved and pushed. The conversation is not the manuscript; the transcript files are.
+During a sitting, the turns live in the chat and nowhere else. Claude does not write anything to the story's files until you type `/save` or `/close`, not at scene breaks and not after out-of-scene decisions. That means you can rewind the conversation, or ask for a turn to be redone, without anything on disk needing to be undone.
 
-- Claude saves on its own at every scene break.
-- Type `/save` any time you want to be sure: before a break, after a turn you love, when the sitting has run long.
+The trade-off: until you save, the turns exist only in the conversation. If the session dies, unsaved turns go with it.
+
+- Type `/save` when you are happy with where the scene stands: before a break, after a turn you love, when the sitting has run long.
+- If the conversation is getting long enough to be compacted, Claude says so in one bracketed line and suggests a save. It will not save on its own.
+- If you want to undo something that was already saved, say so in brackets. Claude undoes it with a new commit; history is never rewritten.
 - The reply is one bracketed line, for example `[Saved: 6 turns to transcript/003-the-feasting-hall.md, state updated, pushed.]`
 - Saved turns are copied word for word, yours and Claude's, typos included. Edits happen later, out of scene, if you ask for an edit pass.
 
@@ -102,7 +105,7 @@ Say it in brackets: `[OOC: add to the bible, Caius's brother is dead, killed in 
 
 - **Claude seems to have forgotten the story.** Type `/open <slug>` again. It re-reads everything from disk.
 - **You want more than a four-line recap.** `[OOC: give me the full state of play.]`
-- **Claude says it cannot reproduce a turn word for word.** The conversation was compacted before a save. Paste your turn if you still have it; Claude's own lost turn is rewritten, and it will say so. Save more often in long sittings.
+- **Claude says it cannot reproduce a turn word for word.** The conversation was compacted before a save. Paste your turn if you still have it; Claude's own lost turn is rewritten, and it will say so. Save before long sittings get compacted.
 - **The slash command is not recognised.** Type the words instead: "open thornwood", "save", "close and merge". Claude knows what they mean.
 - **A message is blocked by a safety classifier.** This happened while setting up the studio, each time on a message that carried the raw Playground directive. The directive now lives in `studio/voice.md` and loads on its own; it never needs to be pasted into chat again. If it happens on an ordinary message, re-send it with less instruction and more story, or in two halves.
 - **Something went to the wrong branch, or the merge failed.** `[OOC: what branch are we on and what is unmerged?]` Claude will sort it out and say what it did.
