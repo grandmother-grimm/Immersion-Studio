@@ -112,6 +112,7 @@ Merewic (village; "Nesswick" never existed) · Loki's ships: *Úlfsvaka* (flagsh
 - NPCs have wants and agendas running off page.
 - The north beats are **horror**: dread from underneath and the edges; the dead wolves in the Game of Thrones white-walker register.
 - The two huge lore beats are to match the Óðinn beat's scale; the first (the *Hrímfaxi*) is done; the second is Hrafna's next turn.
+- **2026-10-21, studio, before the mist beat:** Victoria paused the scene to set the bar for Valen's answer to her mist-calling turn: the same verbosity, detail, action and emotional weight as the *Hrímfaxi* turn; Jensen and Kaleb both get room to shine; unanticipated moments and conversations; Loki's feeling fully written; invent lore freely (what the dead are, what took the serpent ships, the sealskin figure, the chorus) without resolving it.
 
 ## Next
 
