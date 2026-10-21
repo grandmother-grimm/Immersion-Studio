@@ -41,6 +41,10 @@ Facts the narrative knows that the narrator does not yet know. Use them to shape
 
 -
 
+## Style sample
+
+One or more passages in the register this story is written in: Victoria's own, or from the Playground history. This is the model for the prose. Match its rhythm, density, heat and vocabulary.
+
 ## Story directives
 
 Rules specific to this story, on top of the studio voice: tense and person, accent and vocabulary, endearments, anything the narrator always or never does.

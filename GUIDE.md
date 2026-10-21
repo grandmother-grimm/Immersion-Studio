@@ -103,7 +103,6 @@ Say it in brackets: `[OOC: add to the bible, Caius's brother is dead, killed in 
 CLAUDE.md                     the studio rules, loaded every session
 GUIDE.md                      this file
 studio/voice.md               Valen, the universal protocols and directives
-studio/prose-filter.md        the standing filter against machine prose
 studio/templates/             blank bible and state files
 .claude/skills/               the commands
 stories/<slug>/bible.md       canon and story-specific directives
