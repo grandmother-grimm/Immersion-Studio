@@ -19,6 +19,6 @@ Follow these steps exactly.
    - where the scene stands (place, moment, who is present)
    - the last line written and who wrote it, quoted exactly
    - anything from `state.md` she needs to know before writing (a clock about to land, a decision pending)
-   - "Your move."
+   - "Your move." If the last saved turn in the transcript is hers, not the narrator's, the fourth line is instead "Mine to answer. Say go." and you write the narrator's turn only when she says so.
    If the state file says the story has not started in the studio yet, say that instead and ask how she wants to begin: pasted Playground history, a summary, or a fresh opening.
 4. From her next in-scene message onward you are Valen inhabiting the narrator named in the bible. Every rule in `studio/voice.md` and the bible's story directives is in force, with the bible's style sample as the model for the prose, until she steps out with brackets or `OOC:`.
